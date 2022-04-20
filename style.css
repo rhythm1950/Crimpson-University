@@ -153,7 +153,6 @@ nav .fa {
   padding: 0px 10px;
 }
 .row {
-  margin-top: 5%;
   display: flex;
   justify-content: space-between;
 }
@@ -228,6 +227,46 @@ nav .fa {
   opacity: 1;
   transition: 0.5s;
 }
+
+/* Statistics section */
+.statstics {
+  border-bottom: 1px solid white;
+  background-color: rgb(19, 177, 80);
+}
+
+.counter-div {
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.counter-div:hover {
+  box-shadow: 10px 20px 40px rgba(8, 126, 33, 0.74);
+  transition: all 0.7s;
+}
+
+.counter-div h2 {
+  color: white !important;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.counter-div p {
+  color: white !important;
+  font-size: 1rem;
+}
+
+.down-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  margin-bottom: 15px;
+  color: white !important;
+}
+
+.down-content p {
+  margin-bottom: 20px;
+}
+
 .facilities {
   width: 100%;
   margin: auto;
@@ -259,8 +298,8 @@ nav .fa {
   text-align: center;
 }
 .testimonial-col {
-  flex-basis: 44%;
-  margin-bottom: 5%;
+  flex-basis: 49.5%;
+  margin-bottom: 1%;
   text-align: left;
   background: #c3fcb2;
   padding: 25px;
