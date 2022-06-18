@@ -844,7 +844,6 @@ nav .fa {
   text-align: left;
 }
 
-.comment-form input,
-.comment-form {
+.comment-form input {
   width: 100%;
 }
